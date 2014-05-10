@@ -1,0 +1,33 @@
+{
+    "name": "concurrent-sockets",
+    "version": "0.0.0",
+    "description": "A proof of concept for concurrent socket setups with socket.io and node.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine-node --verbose --color --captureExceptions spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tolleiv/concurrent-sockets"
+    },
+    "keywords": [
+        "socket.io",
+        "node.js"
+    ],
+    "author": "Tolleiv Nietsch",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tolleiv/concurrent-sockets/issues"
+    },
+    "homepage": "https://github.com/tolleiv/concurrent-sockets",
+
+    "dependencies": {
+        "express": "3.x",
+        "request": "> 0.0.1",
+        "async": ">=0.0.3",
+        "socket.io": "*"
+    },
+    "devDependencies": {
+        "jasmine-node": ">= 0.0.1"
+    }
+}
