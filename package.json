@@ -25,7 +25,9 @@
         "express": "3.x",
         "request": "> 0.0.1",
         "async": ">=0.0.3",
-        "socket.io": "*"
+        "socket.io": "*",
+        "socket.io-client": "*",
+        "redis": "*"
     },
     "devDependencies": {
         "jasmine-node": ">= 0.0.1"
