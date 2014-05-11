@@ -36,6 +36,7 @@ describe("a running webserver", function () {
                 helper.socket().on("notify", function (data) {
                     expect(data).toEqual(jasmine.any(Object));
                     expect(data.my).toEqual('demodata');
+                    pub.quit();
                     done();
                 });
 
