@@ -1,7 +1,7 @@
 concurrent-sockets
 ==================
 
-A demo repo which is used to benchmark concurrent Socket.IO connections with NodeJS
+A demo repo which is used to benchmark concurrent Socket.IO connections with NodeJS. The setup and the requirement for that is described in the [related blog post](http://blog.tolleiv.de/2014/05/socket-dot-io-within-concurrent-processes/).
 
 
 Build status

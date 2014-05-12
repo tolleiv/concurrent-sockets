@@ -15,7 +15,7 @@
         "node.js"
     ],
     "author": "Tolleiv Nietsch",
-    "license": "MIT",
+    "license": "UNLICENSE",
     "bugs": {
         "url": "https://github.com/tolleiv/concurrent-sockets/issues"
     },
